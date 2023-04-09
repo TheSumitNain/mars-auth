@@ -1,0 +1,677 @@
+@import url("https://fonts.googleapis.com/css2?family=Lemonada:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lemonada:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lemonada:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+.home_main {
+  width: 100%;
+  padding: 0 100px;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+          box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.home_main img {
+  width: 80px;
+  height: 80px;
+}
+
+.home_main button {
+  font-size: 18px;
+  font-weight: 300;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #ff605c;
+  color: white;
+}
+
+.home_form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.home_form .home_form_1 {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #ebebe9;
+}
+
+.home_form .home_form_2 {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #e0e0df;
+}
+
+.box {
+  width: 100%;
+  padding: 0;
+  margin: 20px 0 0 0;
+  background-color: #f3f3f3;
+}
+
+.box .testimony {
+  width: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.box .testimony h2 {
+  font-size: 30px;
+  font-weight: 500;
+  color: teal;
+  font-family: "Lemonada", cursive;
+  padding-left: 50px;
+}
+
+.inner {
+  height: 320px;
+  margin: 10px 20px 30px 20px;
+  padding: 0;
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+  -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.user {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px;
+}
+
+.user p {
+  height: 50%;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: teal;
+}
+
+.user button {
+  width: 100%;
+  background-color: teal;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  border: 2px solid teal;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.user button:hover {
+  background-color: white;
+  color: teal;
+}
+
+.user .testimony_pic_name {
+  width: 100%;
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.user .testimony_pic_name .user_left {
+  margin-left: 10px;
+}
+
+.user .testimony_pic_name .user_left img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+          box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.user .testimony_pic_name .user_right {
+  padding: 0 0 0 20px;
+}
+
+.user .testimony_pic_name .user_right h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: gray;
+  color: #f45980;
+}
+
+.user .testimony_pic_name .user_right p {
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #082a4c;
+  font-family: "Lora", serif;
+}
+
+.user .testimony_pic_name .user_right h4 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #b4b2b2;
+  font-style: italic;
+}
+
+.review_box {
+  width: 100%;
+  padding: 0;
+  margin: 20px 0 0 0;
+  background-color: #f3f3f3;
+}
+
+.review_box .review {
+  width: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.review_box .review h2 {
+  font-size: 30px;
+  font-weight: 500;
+  color: teal;
+  font-family: "Lemonada", cursive;
+  padding-left: 50px;
+}
+
+.inner {
+  height: 320px;
+  margin: 10px 20px 30px 20px;
+  padding: 0;
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+  -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.user {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px;
+}
+
+.user h4 {
+  color: #f45980;
+  font-size: 20px;
+  padding: 2px 0;
+}
+
+.user h4 span {
+  color: #bdbbbb;
+  font-weight: 300;
+}
+
+.user p {
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: teal;
+}
+
+.user p span {
+  color: #bdbbbb;
+}
+
+.user button {
+  width: 100%;
+  background-color: teal;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  border: 2px solid teal;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.user button:hover {
+  background-color: white;
+  color: teal;
+}
+
+.events_box {
+  width: 100%;
+  padding: 0;
+  margin: 20px 0 0 0;
+  background-color: #f3f3f3;
+}
+
+.events_box .events {
+  width: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.events_box .events h2 {
+  font-size: 30px;
+  font-weight: 500;
+  color: teal;
+  font-family: "Lemonada", cursive;
+  padding-left: 50px;
+}
+
+.events_box .inner {
+  height: 320px;
+  margin: 10px 100px 30px 100px;
+  padding: 0;
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+  -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.events_box .user {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px;
+}
+
+.events_box .user img {
+  width: 100%;
+  height: 60%;
+  margin-bottom: 50px;
+}
+
+.events_box .user button {
+  width: 100%;
+  background-color: teal;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  border: 2px solid teal;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.events_box .user button:hover {
+  background-color: white;
+  color: teal;
+}
+
+.create_post_form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px 0;
+}
+
+.create_post_form h1 {
+  color: teal;
+  margin: 0 0 20px 0;
+}
+
+.create_post_form form input {
+  width: 350px;
+  font-size: 18px;
+  padding: 8px 10px;
+  background-color: #f1f0f0;
+  color: teal;
+  border: 1px solid teal;
+  border-radius: 5px;
+}
+
+.create_post_form form ::-webkit-input-placeholder {
+  color: teal;
+}
+
+.create_post_form form :-ms-input-placeholder {
+  color: teal;
+}
+
+.create_post_form form ::-ms-input-placeholder {
+  color: teal;
+}
+
+.create_post_form form ::placeholder {
+  color: teal;
+}
+
+.create_post_form form button {
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: teal;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.create_post_form .error {
+  color: #ff605c;
+  letter-spacing: 1px;
+}
+
+.create_testimony_form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px 0;
+}
+
+.create_testimony_form h1 {
+  color: teal;
+  margin: 0 0 20px 0;
+}
+
+.create_testimony_form form input {
+  width: 350px;
+  font-size: 18px;
+  padding: 8px 10px;
+  background-color: #f1f0f0;
+  color: teal;
+  border: 1px solid teal;
+  border-radius: 5px;
+}
+
+.create_testimony_form form ::-webkit-input-placeholder {
+  color: teal;
+}
+
+.create_testimony_form form :-ms-input-placeholder {
+  color: teal;
+}
+
+.create_testimony_form form ::-ms-input-placeholder {
+  color: teal;
+}
+
+.create_testimony_form form ::placeholder {
+  color: teal;
+}
+
+.create_testimony_form form textarea {
+  width: 350px;
+  height: 150px;
+  font-size: 18px;
+  padding: 5px 10px;
+  border: 1px solid teal;
+  border-radius: 5px;
+  background-color: #f1f0f0;
+}
+
+.create_testimony_form form button {
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 20px 0 0 0;
+  background-color: teal;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+.create_testimony_form .error {
+  color: #ff605c;
+  letter-spacing: 1px;
+}
+
+.login_main {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.login_main form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.login_main form h2 {
+  color: teal;
+  margin: 20px 0;
+}
+
+.login_main form div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.login_main form div label {
+  color: teal;
+  margin: 5px 10px;
+}
+
+.login_main form div .div1 {
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border: 1px solid teal;
+  border-radius: 5px;
+  color: teal;
+}
+
+.login_main form div .div1 input {
+  width: 100%;
+  font-size: 18px;
+  padding: 8px 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  color: teal;
+  letter-spacing: 2px;
+}
+
+.login_main form div .div2 {
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border-radius: 5px;
+  border: 1px solid teal;
+  color: teal;
+  background-color: white;
+}
+
+.login_main form div .div2 input {
+  width: 80%;
+  font-size: 18px;
+  padding: 8px 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  color: teal;
+  letter-spacing: 5px;
+}
+
+.login_main form .show_hide {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #e8e6e6;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.login_main form .error {
+  color: #ff605c;
+}
+
+.login_main form button {
+  width: 300px;
+  font-size: 18px;
+  padding: 10px 5px;
+  margin: 10px 0;
+  background-color: teal;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  background-color: #f3f2f2;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,616 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Raleway:wght@300&display=swap');
+
+.login_main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: teal;
+
+  form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px 50px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;    
+
+    img {
+        width: 80px;
+        height: 80px;
+    }
+
+    h2 {
+      color: teal;
+      margin: 10px 0 20px 0;
+      font-family: 'Raleway', sans-serif;
+    }
+
+   
+
+    div {
+      display: flex;
+      flex-direction: column;
+      label {
+        color: teal;
+        margin: 5px 0;
+        font-size: 18px;
+        letter-spacing: 1px;
+      }
+
+      .div1 {
+        width: 350px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        // border: 1px solid teal;
+        border-radius: 5px;
+        color: teal;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+        input {
+          width: 100%;
+          font-size: 18px;
+          padding: 12px 10px;
+          outline: none;
+          border: none;
+          border-radius: 5px;
+          background-color: white;
+          color: gray;
+          letter-spacing: 1px;
+        }
+      }
+
+      .div2 {
+        width: 350px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        border-radius: 5px;
+        // border: 1px solid teal;
+        color: teal;
+        background-color: white;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+        input {
+          width: 100%;
+          font-size: 18px;
+          
+          padding: 12px 10px;
+          outline: none;
+          border: none;
+          border-radius: 5px;
+          color: gray;
+          letter-spacing: 5px;
+        }
+      }
+    }
+
+    .show_hide {
+      width: 20%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(250, 248, 248);
+      border-radius: 0 5px 5px 0;
+      letter-spacing: 1px;
+      cursor: pointer;
+    }
+
+    .error {
+      color: #ff605c;
+    }
+
+    button {
+      width: 350px;
+      font-size: 18px;
+      letter-spacing: 1px;
+      padding: 12px 5px;
+      margin: 10px 0;
+      background-color: rgb(250, 248, 248);
+      color: teal;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+      transition: all 0.5s;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+      
+      &:hover {
+      background-color: rgb(232, 230, 230);
+        color: teal;
+      }
+      }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 992px) {
+
+  .login_main {
+    height: 100vh;
+  
+    form {
+      padding: 20px 50px;
+      border-radius: 8px;
+  
+      img {
+          width: 80px;
+          height: 80px;
+      }
+  
+      h2 {
+        font-size: 26px;
+        margin: 10px 0 20px 0;
+      }
+  
+      div {
+        label {
+          margin: 5px 0;
+          font-size: 18px;
+        }
+  
+        .div1 {
+          width: 350px;
+          border-radius: 5px;
+  
+          input {
+            font-size: 18px;
+            padding: 12px 10px;
+            border-radius: 5px;
+          }
+        }
+  
+        .div2 {
+          width: 350px;
+          border-radius: 5px;
+  
+          input {
+            font-size: 18px;            
+            padding: 12px 10px;
+            border-radius: 5px;
+            letter-spacing: 5px;
+          }
+        }
+      }
+  
+      .show_hide {
+        width: 20%;
+        border-radius: 0 5px 5px 0;
+      }
+  
+      .error {
+        font-size: 20px;
+      }
+  
+      button {
+        width: 350px;
+        font-size: 18px;
+        padding: 12px 5px;
+        margin: 10px 0;
+        border-radius: 5px;        
+        }
+    }
+  }
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+  .login_main {
+    height: 100vh;
+  
+    form {
+      padding: 20px 50px;
+      border-radius: 8px;
+  
+      img {
+          width: 70px;
+          height: 70px;
+      }
+  
+      h2 {
+        font-size: 24px;
+        margin: 10px 0 15px 0;
+      }
+  
+      div {
+        label {
+          margin: 5px 0;
+          font-size: 17px;
+        }
+  
+        .div1 {
+          width: 350px;
+          border-radius: 5px;
+  
+          input {
+            font-size: 17px;
+            padding: 10px 10px;
+            border-radius: 5px;
+          }
+        }
+  
+        .div2 {
+          width: 350px;
+          border-radius: 5px;
+  
+          input {
+            font-size: 17px;            
+            padding: 10px 10px;
+            border-radius: 5px;
+            letter-spacing: 5px;
+          }
+        }
+      }
+  
+      .show_hide {
+        width: 20%;
+        border-radius: 0 5px 5px 0;
+        font-size: 17px;
+      }
+  
+      .error {
+        font-size: 18px;
+      }
+  
+      button {
+        width: 350px;
+        font-size: 17px;
+        padding: 10px 5px;
+        margin: 10px 0;
+        border-radius: 5px;        
+        }
+    }
+  }
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 612px) {
+
+  .login_main {
+    width: 100%;
+    height: 100vh;
+  
+    form {
+      padding: 20px 20px;
+      border-radius: 5px;
+  
+      img {
+          width: 70px;
+          height: 70px;
+      }
+  
+      h2 {
+        font-size: 24px;
+        margin: 10px 0 15px 0;
+      }
+  
+      div {
+        label {
+          margin: 5px 0;
+          font-size: 17px;
+        }
+  
+        .div1 {
+          width: 350px;
+          border-radius: 5px;
+  
+          input {
+            font-size: 17px;
+            padding: 10px 10px;
+            border-radius: 5px;
+          }
+        }
+  
+        .div2 {
+          width: 350px;
+          border-radius: 5px;
+  
+          input {
+            font-size: 17px;            
+            padding: 10px 10px;
+            border-radius: 5px;
+            letter-spacing: 5px;
+          }
+        }
+      }
+  
+      .show_hide {
+        width: 20%;
+        border-radius: 0 5px 5px 0;
+        font-size: 17px;
+      }
+  
+      .error {
+        font-size: 18px;
+      }
+  
+      button {
+        width: 350px;
+        font-size: 17px;
+        padding: 10px 5px;
+        margin: 10px 0;
+        border-radius: 5px;        
+        }
+    }
+  }
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 451px) {
+
+  .login_main {
+    width: 100%;
+    height: 100vh;
+  
+    form {
+      width: 100%;
+      padding: 20px 20px;
+      border-radius: 0px;
+  
+      img {
+          width: 70px;
+          height: 70px;
+      }
+  
+      h2 {
+        font-size: 22px;
+        margin: 10px 0 15px 0;
+      }
+  
+      div {
+        label {
+          margin: 5px 0;
+          font-size: 17px;
+        }
+  
+        .div1 {
+          width: 350px;
+          border-radius: 5px;
+  
+          input {
+            font-size: 17px;
+            padding: 10px 10px;
+            border-radius: 5px;
+          }
+        }
+  
+        .div2 {
+          width: 350px;
+          border-radius: 5px;
+  
+          input {
+            font-size: 17px;            
+            padding: 10px 10px;
+            border-radius: 5px;
+            letter-spacing: 5px;
+          }
+        }
+      }
+  
+      .show_hide {
+        width: 20%;
+        border-radius: 0 5px 5px 0;
+        font-size: 17px;
+      }
+  
+      .error {
+        font-size: 16px;
+      }
+  
+      button {
+        width: 350px;
+        font-size: 17px;
+        padding: 10px 5px;
+        margin: 10px 0;
+        border-radius: 5px;        
+        }
+    }
+  }
+  
+
+}
+
+
+
+
+
+
+
+
+@media (max-width: 380px) {
+
+  .login_main {
+    width: 100%;
+    height: 100vh;
+  
+    form {
+      width: 100%;
+      padding: 20px 20px;
+      border-radius: 0px;
+  
+      img {
+          width: 70px;
+          height: 70px;
+      }
+  
+      h2 {
+        font-size: 22px;
+        margin: 10px 0 15px 0;
+      }
+  
+      div {
+        label {
+          margin: 5px 0;
+          font-size: 17px;
+        }
+  
+        .div1 {
+          width: 320px;
+          border-radius: 5px;
+  
+          input {
+            font-size: 17px;
+            padding: 10px 10px;
+            border-radius: 5px;
+          }
+        }
+  
+        .div2 {
+          width: 320px;
+          border-radius: 5px;
+  
+          input {
+            font-size: 17px;            
+            padding: 10px 10px;
+            border-radius: 5px;
+            letter-spacing: 5px;
+          }
+        }
+      }
+  
+      .show_hide {
+        width: 20%;
+        border-radius: 0 5px 5px 0;
+        font-size: 17px;
+      }
+  
+      .error {
+        font-size: 16px;
+      }
+  
+      button {
+        width: 320px;
+        font-size: 17px;
+        padding: 10px 5px;
+        margin: 10px 0;
+        border-radius: 5px;        
+        }
+    }
+  }
+  
+
+}
+
+
+
+
+
+
+
+
+@media (max-width: 350px) {
+
+  .login_main {
+    width: 100%;
+    height: 100vh;
+  
+    form {
+      width: 100%;
+      padding: 20px 20px;
+      border-radius: 0px;
+  
+      img {
+          width: 70px;
+          height: 70px;
+      }
+  
+      h2 {
+        font-size: 20px;
+        margin: 10px 0 15px 0;
+      }
+  
+      div {
+        label {
+          margin: 5px 0;
+          font-size: 17px;
+        }
+  
+        .div1 {
+          width: 300px;
+          border-radius: 5px;
+  
+          input {
+            font-size: 17px;
+            padding: 10px 10px;
+            border-radius: 5px;
+          }
+        }
+  
+        .div2 {
+          width: 300px;
+          border-radius: 5px;
+  
+          input {
+            font-size: 17px;            
+            padding: 10px 10px;
+            border-radius: 5px;
+            letter-spacing: 5px;
+          }
+        }
+      }
+  
+      .show_hide {
+        width: 20%;
+        border-radius: 0 5px 5px 0;
+        font-size: 17px;
+      }
+  
+      .error {
+        font-size: 16px;
+      }
+  
+      button {
+        width: 300px;
+        font-size: 17px;
+        padding: 10px 5px;
+        margin: 10px 0;
+        border-radius: 5px;        
+        }
+    }
+  }
+  
+
+}

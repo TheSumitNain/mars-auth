@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Lemonada:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+
+.review_box {
+  width: 100%;
+  padding: 0;
+  margin: 50px 0 0 0;
+  // background-color: rgb(242, 212, 212);
+
+  .review {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    h2 {
+      font-size: 30px;
+      font-weight: 500;
+      color: teal;
+      font-family: "Lemonada", cursive;
+      padding-left: 50px;
+    }
+  }
+}
+
+.inner {
+  height: 350px;
+  margin: 10px 20px 30px 20px;
+  padding: 0;
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.user {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px 20px;
+
+  div {
+    height: 80%;
+
+    h4 {
+      color: #f45980;
+      font-size: 20px;
+      padding: 2px 0;
+
+      span {
+        color: rgb(189, 187, 187);
+        font-weight: 300;
+      }
+    }
+
+    p {
+      font-size: 18px;
+      letter-spacing: 1px;
+      color: teal;
+
+      span {
+        color: rgb(189, 187, 187);
+      }
+    }
+  }
+
+  button {
+    width: 100%;
+    background-color: rgb(250, 248, 248);
+    color: teal;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+      rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+    &:hover {
+      background-color: #d9534f;
+      color: white;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 992px) {
+
+  .review_box {
+    padding: 0;
+    margin: 50px 0 0 0;
+  
+    .review {
+      height: 100px;
+  
+      h2 {
+        font-size: 30px;
+        padding-left: 50px;
+      }
+    }
+  }
+  
+  .inner {
+    height: 350px;
+    margin: 10px 20px 30px 20px;
+    border-radius: 10px;
+  }
+  
+  .user {
+    padding: 10px 20px;
+  
+    div {
+      height: 80%;
+  
+      h4 {
+        font-size: 20px;
+        padding: 2px 0;
+      }
+  
+      p {
+        font-size: 18px;
+      }
+    }
+  
+    button {
+      padding: 10px;
+      font-size: 18px;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 451px) {
+
+  .review_box {
+    padding: 0;
+    margin: 50px 0 0 0;
+  
+    .review {
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      h2 {
+        font-size: 22px;
+        padding-left: 0;
+      }
+    }
+  }
+  
+  .inner {
+    height: 350px;
+    margin: 10px 20px 30px 20px;
+    border-radius: 10px;
+  }
+  
+  .user {
+    padding: 10px 20px;
+  
+    div {
+      height: 80%;
+  
+      h4 {
+        font-size: 18px;
+        padding: 2px 0;
+      }
+  
+      p {
+        font-size: 17px;
+      }
+    }
+  
+    button {
+      padding:8px 10px;
+      font-size: 17px;
+    }
+  }
+}

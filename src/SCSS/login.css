@@ -1,0 +1,138 @@
+.login_main {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.login_main form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.login_main form h2 {
+  color: teal;
+  margin: 20px 0;
+}
+
+.login_main form div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.login_main form div label {
+  color: teal;
+  margin: 5px 10px;
+}
+
+.login_main form div .div1 {
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border: 1px solid teal;
+  border-radius: 5px;
+  color: teal;
+}
+
+.login_main form div .div1 input {
+  width: 100%;
+  font-size: 18px;
+  padding: 8px 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  color: teal;
+  letter-spacing: 2px;
+}
+
+.login_main form div .div2 {
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border-radius: 5px;
+  border: 1px solid teal;
+  color: teal;
+  background-color: white;
+}
+
+.login_main form div .div2 input {
+  width: 80%;
+  font-size: 18px;
+  padding: 8px 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  color: teal;
+  letter-spacing: 5px;
+}
+
+.login_main form .show_hide {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #e8e6e6;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.login_main form .error {
+  color: #ff605c;
+}
+
+.login_main form button {
+  width: 300px;
+  font-size: 18px;
+  padding: 10px 5px;
+  margin: 10px 0;
+  background-color: teal;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+/*# sourceMappingURL=login.css.map */

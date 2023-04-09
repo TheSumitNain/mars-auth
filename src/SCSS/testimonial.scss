@@ -1,0 +1,276 @@
+@import url("https://fonts.googleapis.com/css2?family=Lemonada:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+
+.testimony_box {
+  width: 100%;
+  padding: 0;
+  margin: 50px 0 0 0;
+  // background-color: rgb(242, 229, 195);
+
+  .testimony {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    h2 {    
+      font-size: 30px;
+      font-weight: 500;
+      color: teal;
+      font-family: "Lemonada", cursive;
+      padding-left: 50px;
+    }
+  }
+
+  .inner {
+    height: 320px;
+    margin: 10px 20px 30px 20px;
+    padding: 0;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+
+  .user {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+
+    p {
+      height: 50%;
+      font-size: 20px;
+      letter-spacing: 1px;
+      color: teal;
+    }
+
+    button {
+      width: 100%;
+      background-color: rgb(250, 248, 248);
+      color: teal;
+      padding: 10px;
+      font-size: 18px;
+      // border: 2px solid teal;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: all 0.5s;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+      
+
+      &:hover {
+        background-color: #d9534f;
+        color: white;
+      }
+    }
+
+    .testimony_pic_name {
+      width: 100%;
+      height: 50%;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+
+      .user_left {
+        margin-left: 10px;
+        img {
+          width: 80px;
+          height: 80px;
+          border-radius: 50%;
+          box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+        }
+      }
+
+      .user_right {
+        padding: 0 0 0 20px;
+
+        h3 {
+          font-size: 20px;
+          font-weight: 500;
+          color: gray;
+          color: #f45980;
+        }
+
+        p {
+          font-size: 18px;
+          letter-spacing: 1px;
+          color: #082a4c;
+          font-family: "Lora", serif;
+        }
+
+        h4 {
+          font-size: 18px;
+          font-weight: 400;
+          color: rgb(180, 178, 178);
+          font-style: italic;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 992px) {
+
+.testimony_box {
+  padding: 0;
+  margin: 50px 0 0 0;
+
+  .testimony {
+    height: 100px;
+
+    h2 {
+      font-size: 30px;
+      padding-left: 50px;
+    }
+  }
+
+  .inner {
+    height: 350px;
+    margin: 10px 20px 30px 20px;
+    border-radius: 10px;
+  }
+
+  .user {
+    padding: 20px;
+
+    p {
+      height: 60%;
+      font-size: 20px;
+    }
+
+    button {
+      padding: 10px;
+      font-size: 18px;
+    }
+
+    .testimony_pic_name {
+      height: 50%;
+
+      .user_left {
+        margin-left: 10px;
+        img {
+          width: 80px;
+          height: 80px;
+        }
+      }
+
+      .user_right {
+        padding: 0 0 0 20px;
+
+        h3 {
+          font-size: 20px;
+        }
+
+        p {
+          font-size: 18px;
+        }
+
+        h4 {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 451px) {
+
+  .testimony_box {
+    padding: 0;
+    margin: 50px 0 0 0;
+  
+    .testimony {
+      height: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      h2 {
+        font-size: 22px;
+        padding-left: 0;
+      }
+    }
+  
+    .inner {
+      height: 350px;
+      margin: 10px 10px 10px 10px;
+      border-radius: 5px;
+    }
+  
+    .user {
+      padding: 20px;
+  
+      p {
+        text-align: justify;
+        height: 60%;
+        font-size: 18px;
+      }
+  
+      button {
+        padding: 8px 10px;
+        font-size: 17px;
+      }
+  
+      .testimony_pic_name {
+        height: 40%;
+  
+        .user_left {
+          margin-left: 10px;
+          img {
+            width: 60px;
+            height: 60px;
+          }
+        }
+  
+        .user_right {
+          padding: 0 0 0 20px;
+  
+          h3 {
+            font-size: 17px;
+          }
+  
+          p {
+            font-size: 16px;
+          }
+  
+          h4 {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+  
+  
+  }

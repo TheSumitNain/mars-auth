@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Lemonada:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+.box {
+  width: 100%;
+  padding: 0;
+  margin: 20px 0 0 0;
+  background-color: #f3f3f3;
+}
+
+.box .testimony {
+  width: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.box .testimony h2 {
+  font-size: 30px;
+  font-weight: 500;
+  color: teal;
+  font-family: "Lemonada", cursive;
+  padding-left: 50px;
+}
+
+.inner {
+  height: 320px;
+  margin: 10px 20px 30px 20px;
+  padding: 0;
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+  -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.user {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px;
+}
+
+.user p {
+  height: 50%;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: teal;
+}
+
+.user button {
+  width: 100%;
+  background-color: teal;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  border: 2px solid teal;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.user button:hover {
+  background-color: white;
+  color: teal;
+}
+
+.user .testimony_pic_name {
+  width: 100%;
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.user .testimony_pic_name .user_left {
+  margin-left: 10px;
+}
+
+.user .testimony_pic_name .user_left img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+          box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.user .testimony_pic_name .user_right {
+  padding: 0 0 0 20px;
+}
+
+.user .testimony_pic_name .user_right h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: gray;
+  color: #f45980;
+}
+
+.user .testimony_pic_name .user_right p {
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #082a4c;
+  font-family: "Lora", serif;
+}
+
+.user .testimony_pic_name .user_right h4 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #b4b2b2;
+  font-style: italic;
+}
+/*# sourceMappingURL=testimonial.css.map */
