@@ -4,7 +4,7 @@ import firebase from "../firebase";
 import { storage } from "../firebase";
 import { ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
 
-const ref3 = firebase.firestore().collection("post");
+const ref3 = firebase.firestore().collection("post");    
 
 const Createpost = () => {
   const [file, setFile] = useState("");

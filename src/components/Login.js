@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useUserAuth } from "../context/UserAuthContext";
-import { Icon } from '@iconify/react';
+import { Icon } from "@iconify/react";
 import logo from "../images/logo2.jpeg";
 
 const Login = () => {
@@ -39,9 +39,9 @@ const Login = () => {
     <>
       <div className="login_main">
         <form onSubmit={handleSubmit}>
-        <img src={logo} alt="logo" />
+          <img src={logo} alt="logo" />
           <h2>Welcome to Mars Overseas</h2>
-          <div>   
+          <div>
             <label htmlFor="email">Email:</label>
             <div className="div1">
               <input
@@ -49,10 +49,11 @@ const Login = () => {
                 name="email"
                 id="email"
                 onChange={(e) => setEmail(e.target.value)}
-              />  
+              />
             </div>
             <br />
           </div>
+          
           <div>
             <label htmlFor="password">Password:</label>
             <div className="div2">
@@ -63,7 +64,7 @@ const Login = () => {
                 onChange={(e) => setPassword(e.target.value)}
               />
               <p className="show_hide" onClick={handleToogle}>
-              <Icon icon={show} fontSize="30" /> 
+                <Icon icon={show} fontSize="30" />
               </p>
             </div>
             <br />
